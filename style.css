@@ -31,7 +31,7 @@
 	grid-row: 1/2;
 	/*background-color: #efefef;*/
 	background-image: url(images/bg-texture.jpg);
-	padding: 4% 10% 4% 5%;
+	padding: 4% 10% 1% 5%;
 	line-height: 1.4;
 	color:#000;
 	letter-spacing: 0.8px;
@@ -43,7 +43,7 @@
 	grid-row: 1/2;
 	background-color:#0000ff;
 	color: #efefef;
-	padding: 4% 10% 4% 5%;
+	padding: 4% 10% 1% 5%;
 	line-height: 1.4;
 	letter-spacing: 0.8px;
 	z-index: 1;
@@ -246,6 +246,15 @@
 .atc-info {
 	font-family: 'ATC', Arial, sans-serif;
 	font-size: 1.5vw;
+}
+
+.left {
+	padding: 4% 10% 4% 5%;
+
+}
+
+.right {
+	padding: 4% 10% 4% 5%;
 }
 
 }
