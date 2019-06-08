@@ -91,6 +91,7 @@
 	font-size:4vw;
 	padding-bottom: 8%;
 	z-index: 10;
+	display:none;
 }
 
 .apply a {
@@ -110,6 +111,7 @@
 	padding-bottom: 8%;
 	z-index: 10;
 	text-align: left;
+	display:none;
 }
 
 .apply2 a {
@@ -135,7 +137,7 @@
 		font-family: 'YS', Times, serif;
 	font-size:1.5vw;
 	text-decoration: underline;
-	padding-bottom: 10%;
+	padding-bottom: 35%;
 }
 
 .contact a {
@@ -146,6 +148,7 @@
 .contact a:hover {
 	text-decoration: none;
 	color: #0000ff;
+	letter-spacing: 7px;
 }
 
 .contact2 {
@@ -164,6 +167,7 @@
 .contact2 a:hover {
 	text-decoration: none;
 	color: #000;
+	letter-spacing: 7px;
 }
 /*cursor*/
 
@@ -366,6 +370,10 @@
 	margin: 10% auto;
 }
 
+.mobile-seal2 {
+	display:none;
+}
+
 .mobile-seal .mobile-apply {
 	position: absolute;
 	z-index: 999;
@@ -374,6 +382,7 @@
 	right:0;
 	text-align:center;
 	top:15%;
+
 }
 
 .mobile-seal .mobile-apply2 {
@@ -391,6 +400,7 @@
 	font-family: 'ATC', Arial, sans-serif;
 	font-size:14vw;
 	padding-bottom: 8%;
+	display:none;
 }
 
 .mobile-apply a {
@@ -405,6 +415,7 @@
 	font-family: 'ATC', Arial, sans-serif;
 	font-size:14vw;
 	padding-bottom: 8%;
+	display:none;
 }
 
 .mobile-apply2 a {
