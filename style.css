@@ -210,21 +210,17 @@ margin-top:7%;
 font-size:1.25vw;
 font-family: 'ATC';
 text-transform: uppercase;
-margin-top:10%; }
+margin-top:5%; }
 
 
-.logos {
- text-align: center;
- margin-top:2%;
+.logo {
+	text-align:left;
 }
 
 
 .logoimg {
-  width: 100%;
-    max-width: 400px;
-    height: auto;
     display: inline-block;
-    margin-right:1%;
+    margin-top:5%;
 }
 
 
@@ -402,6 +398,7 @@ margin-top:7%;
 	font-size:4.5vw;
 	padding-left: 6%;
 	margin-top:10%;
+	margin-bottom:10%;
 	font-family: 'ATC', Arial, sans-serif;
 }
 
@@ -535,20 +532,9 @@ margin-top:7%;
 
 
 .logoimg {
-  width: 80%;
-    max-width: 300px;
     height: auto;
     display: inline-block;
-    margin-top:10%;
+    margin-top:5%;
 }
 
-.logoimg2 {
-  width: 80%;
-    max-width: 300px;
-    height: auto;
-    display: inline-block;
-    margin-top:10%;
-    margin-bottom:5%;
-}
-}
 
