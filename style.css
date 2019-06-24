@@ -56,6 +56,7 @@
 	font-size:1.45vw;
 	padding-bottom:4%;	
 	z-index:20;
+	display:none;
 }
 
 .copy {
