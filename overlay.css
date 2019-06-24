@@ -11,7 +11,7 @@
 .toggle-button {
     position: fixed;
     right: 10px;
-    bottom: 3%%;
+    bottom: 2.5%;
     cursor: pointer;
     z-index: 4;
     color: #000;
@@ -272,8 +272,8 @@
 
 .toggle-button {
     position: fixed;
-    bottom: 8px;
-    right: 5px;
+    bottom: 3%;
+    right: 1%;
     cursor: pointer;
     z-index: 8;
 }

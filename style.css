@@ -67,7 +67,7 @@
 
 .tagline { 
 font-size:1.25vw;
-font-family: 'ATC';
+font-family: 'ATC', Arial, sans-serif;
 text-transform: uppercase }
 
 
@@ -352,6 +352,7 @@ margin-top:5%; }
 .tagline {
 	font-size:4.5vw;
 	padding-left: 6%;
+	text-transform: uppercase ;
 }
 
 .team-info {
