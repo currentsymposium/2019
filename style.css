@@ -83,7 +83,10 @@ font-size:1.25vw;
 font-family: 'ATC', Arial, sans-serif;
 text-transform: uppercase }
 
-
+.tagline2 { 
+font-size:1.25vw;
+font-family: 'ATC', Arial, sans-serif;
+text-transform: uppercase }
 
 ul {
 	line-height: 2;
@@ -191,7 +194,7 @@ margin-right:0%;
 }
 
 .team-photo img {
-	width: 70%;
+	width: 40%;
 }
 
 .team-bio p {
@@ -463,6 +466,11 @@ font-size:1vw;
 .tagline {
 	font-size:4.5vw;
 	padding-left: 6%;
+	text-transform: uppercase ;
+}
+
+.tagline2 {
+	font-size:4.5vw;
 	text-transform: uppercase ;
 }
 
