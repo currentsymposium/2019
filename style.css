@@ -103,7 +103,9 @@ ul a:hover {
 	color: #0000ff;
 }
 
-
+.active-link {
+	text-decoration: underline;
+}
 
 .seal {
 	z-index: 1;
@@ -188,13 +190,13 @@ margin-right:0%;
 }
 
 .team-photo {
-	float:left;
 	z-index: 0;
-	margin-right:-12%;
 }
 
 .team-photo img {
+	float:left;
 	width: 40%;
+	margin-right:6%;
 }
 
 .team-bio p {
