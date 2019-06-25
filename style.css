@@ -466,6 +466,12 @@ font-size:1vw;
 	text-transform: uppercase ;
 }
 
+.logoimg {
+    height: auto;
+    display: inline-block;
+    margin-top:10%;
+}
+
 .team-info {
 	margin-top: 15%;
 }
@@ -519,7 +525,6 @@ margin-top:7%;
 .funders {
 	font-size:4.5vw;
 	padding-left: 6%;
-	margin-top:10%;
 	margin-bottom:10%;
 	font-family: 'ATC', Arial, sans-serif;
 }
@@ -666,10 +671,6 @@ ul a:hover {
 	color: #0000ff;
 }
 
-.logoimg {
-    height: auto;
-    display: inline-block;
-    margin-top:5%;
-}
 
+}
 
