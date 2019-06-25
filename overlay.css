@@ -328,7 +328,7 @@
 .overlay ul {
     display: block;
     position: relative;
-    top: 18%;
+    top: 14%;
     left: 6%;
     font-family: 'ATC', arial, serif;
     text-transform: uppercase;
@@ -338,7 +338,7 @@
     list-style: none;
     padding: 0;
     letter-spacing: 2px;
-    line-height: 1.7;
+    line-height: 1.4;
 }
 .overlay ul li {
     display: block;
