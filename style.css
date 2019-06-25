@@ -36,7 +36,7 @@
 	line-height: 1.4;
 	color:#000;
 	letter-spacing: 0.8px;
-	z-index: 1;
+	z-index: 0;
 }
 
 .right {
@@ -47,7 +47,7 @@
 	padding: 4% 10% 1% 5%;
 	line-height: 1.4;
 	letter-spacing: 0.8px;
-	z-index: 1;
+	z-index: 2;
 	overflow: auto;
 	height:100vh;
 }
@@ -75,7 +75,7 @@
 		font-family: 'YS', Times, serif;
 	font-size:1vw;
 	padding-bottom:4%;	
-	z-index:20;
+	z-index:1;
 }
 
 .tagline { 
@@ -108,7 +108,7 @@ ul a:hover {
 }
 
 .seal {
-	z-index: 1;
+	z-index: 0;
 	position: fixed;
 	display:block;
 	width: 33%;
@@ -618,9 +618,6 @@ ul {
 	margin: 10% auto;
 }
 
-.mobile-seal2 {
-	display:none;
-}
 
 .mobile-seal .mobile-apply {
 	position: absolute;
@@ -633,43 +630,19 @@ ul {
 
 }
 
-.mobile-seal .mobile-apply2 {
-	position: absolute;
-	z-index: 999;
-	margin: 0 auto;
-	left:0;
-	right:0;
-	text-align:center;
-	bottom:12%;
-}
 
 .mobile-apply {
 	display:block;
 	font-family: 'ATC', Arial, sans-serif;
-	font-size:14vw;
-	padding-bottom: 8%;
-	display:none;
-}
-
-.mobile-apply a {
-	text-decoration: none;
+	font-size:6vw;
+	margin-top:-60%;
 	color: #0000ff;
+	z-index: 1000;
+	padding-left:6%;
 }
 
 
-.mobile-apply2 {
-	display: inline-block;
-	position: relative;
-	font-family: 'ATC', Arial, sans-serif;
-	font-size:14vw;
-	padding-bottom: 8%;
-	display:none;
-}
 
-.mobile-apply2 a {
-	text-decoration: none;
-	color: #efefef;
-}
 
 .logos {
  text-align: center;
