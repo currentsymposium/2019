@@ -164,7 +164,7 @@
     text-decoration: none;
       position: relative;
 }
-
+/*
 .overlay ul li a:after {
     content: '';
     position: absolute;
@@ -174,7 +174,7 @@
     height: 1px;
     background: currentColor; // system color
     transition: all ease .2s;
-  } 
+  } */
 
 
 }
