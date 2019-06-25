@@ -15,6 +15,7 @@
 }
 
 ::selection {
+	background-color: #000;
 	color: #fff;
 }
 
@@ -51,6 +52,18 @@
 	height:100vh;
 }
 
+.right2 {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	background-color:#0000ff;
+	color: #efefef;
+	line-height: 1.4;
+	letter-spacing: 0.8px;
+	z-index: 1;
+	overflow: auto;
+	height:100vh;
+}
+
 .info {
 	font-family: 'YS', Times, serif;
 	font-size:1.45vw;
@@ -74,7 +87,7 @@ text-transform: uppercase }
 
 ul {
 	line-height: 2;
-	font-size:1.6vw;
+	font-size:1.25vw;
 }
 
 ul a {
@@ -195,6 +208,12 @@ margin-right:0%;
 }
 
 
+.bio a {
+		text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
 .partners {
 margin-top:7%;
 }
@@ -223,6 +242,94 @@ margin-top:5%; }
     margin-top:5%;
 }
 
+
+.member {
+	padding: 0;
+	padding: 4% 10% 10% 5%;
+	line-height: 1.5;
+}
+
+.right2 img {
+	width:100%;
+}
+
+.announcement {
+font-size:1vw;
+}
+
+.arrow .bounce span {
+  display: block;
+  color: #fff;
+}
+
+.lnr {
+	font-size:4vw;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 5%;
+  right: 25%;
+  margin-left: -20px;
+  width: 40px;
+  height: 60px; /*change with size of arrow to make sit on bottom */
+/*   background-image: url(); */
+/*   background-size: contain; */
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
 
 
 /*cursor*/
@@ -309,7 +416,7 @@ margin-top:5%; }
 }
 
 .left {
-	padding: 4% 10% 4% 5%;
+	padding: 4% 10% 0% 5%;
 
 }
 
@@ -340,6 +447,10 @@ margin-top:5%; }
 	height:100%;
 }
 
+.right2 {
+	display: none;
+}
+
 .info {
 	display:none;
 	
@@ -356,12 +467,13 @@ margin-top:5%; }
 }
 
 .team-info {
-	margin-top: 10%;
+	margin-top: 15%;
 }
 
 .team-bio {
 margin-top: 10%;
 }
+
 
 .team-photo {
 	float:none;
@@ -383,6 +495,16 @@ margin-top: 10%;
 	padding: 8% 10% 0% 6%;
 
 }
+
+.bio p {
+		overflow: hidden;
+	font-size:4.5vw;
+	font-family: 'YS', Times, Serif;
+	line-height:1.4;
+	letter-spacing: 0.5px;
+	padding: 8% 10% 15% 6%;
+}
+
 
 .partners {
 margin-top:7%;
@@ -406,6 +528,14 @@ margin-top:7%;
 .atc-info {
 	font-family: 'ATC', Arial, sans-serif;
 	font-size: 4vw;
+}
+
+.announcement {
+	font-size:4.5vw;
+}
+
+ul {
+	font-size:6vw;
 }
 
 .ys {
