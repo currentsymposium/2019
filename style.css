@@ -662,6 +662,10 @@ ul {
  margin-top:2%;
 }
 
+ul a:hover {
+	letter-spacing: 7px;
+	color: #0000ff;
+}
 
 .logoimg {
     height: auto;
