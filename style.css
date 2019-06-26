@@ -36,7 +36,7 @@
 	line-height: 1.4;
 	color:#000;
 	letter-spacing: 0.8px;
-	z-index: 0;
+	z-index: 1;
 }
 
 .right {
@@ -47,7 +47,7 @@
 	padding: 4% 10% 1% 5%;
 	line-height: 1.4;
 	letter-spacing: 0.8px;
-	z-index: 2;
+	z-index: 1;
 	overflow: auto;
 	height:100vh;
 }
@@ -59,7 +59,7 @@
 	color: #efefef;
 	line-height: 1.4;
 	letter-spacing: 0.8px;
-	z-index: 1;
+	z-index: 2;
 	overflow: auto;
 	height:100vh;
 }
@@ -68,14 +68,12 @@
 	font-family: 'YS', Times, serif;
 	font-size:1.45vw;
 	padding-bottom:4%;	
-	z-index:20;
 }
 
 .copy {
 		font-family: 'YS', Times, serif;
 	font-size:1vw;
 	padding-bottom:4%;	
-	z-index:1;
 }
 
 .tagline { 
@@ -86,7 +84,8 @@ text-transform: uppercase }
 .tagline2 { 
 font-size:1.25vw;
 font-family: 'ATC', Arial, sans-serif;
-text-transform: uppercase }
+text-transform: uppercase; 
+margin-top:10%; }
 
 ul {
 	line-height: 2;
@@ -190,7 +189,6 @@ margin-right:0%;
 }
 
 .team-photo {
-	z-index: 0;
 }
 
 .team-photo img {
@@ -493,7 +491,6 @@ margin-top: 10%;
 
 .team-photo {
 	float:none;
-	z-index: 0;
 	margin-right:0;
 }
 
@@ -641,6 +638,10 @@ ul {
 	padding-left:6%;
 }
 
+.mobile-apply a{
+	text-decoration: none;
+	color: #0000ff;
+}
 
 
 

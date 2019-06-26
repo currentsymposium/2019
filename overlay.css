@@ -90,7 +90,9 @@
       position: relative;
 }
 
-
+.overlay ul li a:hover {
+    letter-spacing: 20px;
+}
 
 .land {
     float: center;
@@ -353,6 +355,11 @@
     text-decoration: none;
       position: relative;
 }
+
+.overlay ul li a:hover {
+    letter-spacing: 3px;
+}
+
 
 /*.overlay ul li a:after {
     content: '';
