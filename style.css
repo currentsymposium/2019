@@ -126,6 +126,26 @@ ul a:hover {
 
 }
 
+.seal2 {
+	z-index: -1;
+	position: fixed;
+	display:block;
+	width: 33%;
+	bottom: 19%;
+	left:0;
+	right:0;
+	margin: 0 auto;
+	  -webkit-animation:spin 15s linear infinite;
+  -moz-animation:spin 15s linear infinite;
+  animation:spin 15s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+
+}
+
 .mobile {
 	display:none;
 }
@@ -599,6 +619,10 @@ ul {
 	display: none;
 }
 
+.seal2 {
+	display: none;
+}
+
 .mobile {
 	display: inline-block;
 	position: relative;
@@ -679,4 +703,5 @@ ul a:hover {
 
 
 }
+
 
