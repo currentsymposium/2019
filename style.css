@@ -135,6 +135,9 @@ ul a:hover {
 	font-size: 1.4vw;
 }
 
+.text {
+	font-size:1vw;
+}
 
 
 
@@ -210,11 +213,19 @@ margin-right:0%;
 	cursor: pointer;
 }
 
+.team-bio a:hover {
+	letter-spacing: 7px;
+}
 
 .bio a {
 		text-decoration: none;
 	color: #fff;
 	cursor: pointer;
+}
+
+
+.bio a:hover {
+	letter-spacing: 7px;
 }
 
 .partners {
@@ -268,6 +279,11 @@ font-size:1vw;
 .lnr {
 	font-size:4vw;
 }
+
+.mobile-seal {
+	display: none;
+}
+
 
 .arrow {
   position: absolute;
@@ -541,6 +557,10 @@ margin-top:7%;
 	font-size: 4vw;
 }
 
+.text {
+	font-size:4vw;
+}
+
 .announcement {
 	font-size:4.5vw;
 	letter-spacing: 0;
@@ -613,6 +633,8 @@ ul {
 
 .mobile-seal {
 	margin: 10% auto;
+	z-index:-2;
+	display: block;
 }
 
 
