@@ -243,13 +243,14 @@
 }
 
 .overlay ul li a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
       position: relative;
 }
 
 .land {
     padding: 0 6%;
+    font-size:2vw;
 }
 
 }
@@ -347,7 +348,7 @@
     float: center;
     font-family: 'YS', Georgia, serif;
     color: #fff;
-    font-size: 4vw;
+    font-size: 3.5vw;
     display: block;
     position: absolute;
     bottom:15%;
@@ -362,7 +363,7 @@
 
 @media screen and (max-width: 350px;) {
 .land {
-    font-size:3.5vw;
+    font-size:2vw;
     }
 
 .overlay ul {
